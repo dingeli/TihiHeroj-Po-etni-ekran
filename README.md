@@ -41,8 +41,7 @@ struct CardData: Identifiable {
                     radius: 15, x: 0, y: 10)
         }
     }
-    
-struct CardsCarouselView: View {
+    struct CardsCarouselView: View {
     let cards: [CardData] = [
         CardData(image: "card1", title: "Пријави, не ћути", text: "Твоја безбедност је наш приоритет. Користи једноставан формулар за пријаву вршњачког насиља. Ми обезбеђујемо поверљивост, а твој глас може направити разлику."),
         CardData(image: "card2", title: "Заштити себе", text: "Поступци и савети за безбедност..."),

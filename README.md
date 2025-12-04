@@ -1,6 +1,8 @@
 # TihiHeroj-Po-etni-ekran
 Početni ekran aplikacije tihi heroj, vezan za prijavu nasilja. Odradjeni deo predstavlja početni ekran, sastavljen od tri kartice na kojima se nalazi slika, tekst, i koje mogu da se listaju. Takodje, postoji dugme kojim se prelazi na novi ekran i dugme istraži kojim se takodje prelazi na novi ekran.
 
+
+
 import SwiftUI
 
 struct CardData: Identifiable {
@@ -9,6 +11,7 @@ struct CardData: Identifiable {
     var title: String
     var text: String
 }
+
     struct WelcomeViewCards: View {
         var card: CardData
         var body: some View {
